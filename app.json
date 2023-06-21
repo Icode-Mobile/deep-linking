@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "deep-linking",
+    "scheme": "myapp",
     "slug": "deep-linking",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.myapp.icode"
     },
     "web": {
       "favicon": "./assets/favicon.png"
